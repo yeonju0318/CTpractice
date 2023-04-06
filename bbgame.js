@@ -1,7 +1,7 @@
 let randomNumbers = [];
 
 while (randomNumbers.length < 3) {
-  let randomNumber = Math.floor(Math.random() * 9) + 1;
+  let randomNumber = Math.floor(Math.random() * 10) + 1;
 
   if (!randomNumbers.includes(randomNumber)) {
     randomNumbers.push(randomNumber);
