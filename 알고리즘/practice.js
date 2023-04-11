@@ -77,14 +77,16 @@ function solution(arr1, arr2) {
   return answer;
 }
 console.log(
-  ([
-    [1, 2],
-    [2, 3],
-  ],
-  [
-    [3, 4],
-    [5, 6],
-  ])
+  solution(
+    [
+      [1, 2],
+      [2, 3],
+    ],
+    [
+      [3, 4],
+      [5, 6],
+    ]
+  )
 );
 
 //*map함수사용 *박지수코드
