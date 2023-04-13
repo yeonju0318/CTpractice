@@ -1,9 +1,0 @@
-function solution(n) {
-  answer = String(n);
-  arry = answer.split("");
-  rearry = arry.reverse();
-
-  return rearry.map((a) => parseInt(a));
-}
-
-console.log(solution(1234));
